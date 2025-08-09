@@ -3,12 +3,13 @@ import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",            // Replace with your config
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_BUCKET",
-  messagingSenderId: "YOUR_MSG_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyCki6bRVCnZmGpRzDVHVdieQYjd0S4PfUg",
+  authDomain: "operatorterminal-f276a.firebaseapp.com",
+  projectId: "operatorterminal-f276a",
+  storageBucket: "operatorterminal-f276a.firebasestorage.app",
+  messagingSenderId: "158701660886",
+  appId: "1:158701660886:web:82d558694e05e8411a7777",
+  measurementId: "G-HGT2G1LLSB"
 };
 
 const app = initializeApp(firebaseConfig);
